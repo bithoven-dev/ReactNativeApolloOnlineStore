@@ -23,6 +23,7 @@ export function ProductsList({navigation}) {
 
   return (
     <FlatList
+      style={styles.productsList}
       contentContainerStyle={styles.productsListContainer}
       data={data.products}
       renderItem={renderProduct}
@@ -31,7 +32,12 @@ export function ProductsList({navigation}) {
 }
 
 const styles = StyleSheet.create({
+  productsList: {
+    backgroundColor: '#fafafa',
+  },
   productsListContainer: {
     backgroundColor: '#fafafa',
+    paddingVertical: 8,
+    marginHorizontal: 8,
   },
 });

@@ -5,11 +5,12 @@ import {ApolloProvider, ApolloClient, InMemoryCache} from '@apollo/client';
 
 import {ProductsList} from './screens/ProductsList';
 import {ProductDetails} from './screens/ProductDetails';
+import {GRAPHQL_URL} from './config';
 
 const Stack = createStackNavigator();
 
 const client = new ApolloClient({
-  uri: 'http://localhost:1337/graphql',
+  uri: GRAPHQL_URL,
   cache: new InMemoryCache(),
 });
 
