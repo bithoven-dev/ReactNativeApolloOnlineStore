@@ -42,6 +42,6 @@ yarn iOS
 
 PS: make sure that you have installed all the required dependencies including running pod installs.
 
-#Videos
+# Videos
 
 I will add the videos as soon as I start publishing them.
