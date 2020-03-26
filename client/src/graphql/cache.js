@@ -19,6 +19,16 @@ export const cache = new InMemoryCache({
         },
       },
     },
+    Query: {
+      fields: {
+        product(_, {args, toReference}) {
+          return toReference({
+            __typename: 'Product',
+            id: args.id,
+          });
+        },
+      },
+    },
   },
 });
 cache.writeQuery({
