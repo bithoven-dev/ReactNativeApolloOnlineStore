@@ -1,8 +1,17 @@
 import React from 'react';
 import {ActivityIndicator, StyleSheet} from 'react-native';
 
-export function Loading() {
-  return <ActivityIndicator style={styles.loadingIndicator} />;
+export function Loading({hasBackground}) {
+  return (
+    <ActivityIndicator
+      style={[
+        styles.loadingIndicator,
+        {
+          backgroundColor: hasBackground ? '#fafafa' : 'none',
+        },
+      ]}
+    />
+  );
 }
 
 const styles = StyleSheet.create({
@@ -10,6 +19,5 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#fafafa',
   },
 });

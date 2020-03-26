@@ -13,7 +13,7 @@ export function ProductsList({navigation}) {
   });
 
   if (loading) {
-    return <Loading />;
+    return <Loading hasBackground />;
   }
 
   if (error) {

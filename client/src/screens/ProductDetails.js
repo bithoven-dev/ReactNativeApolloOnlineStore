@@ -7,6 +7,7 @@ import {Loading} from '../compoents/Loading';
 import {Error} from '../compoents/Error';
 import {Product} from '../compoents/Product';
 import {Card} from '../compoents/Card';
+import {AddComment} from '../compoents/AddComment';
 
 export function ProductDetails({route}) {
   const {productId} = route.params;
@@ -32,7 +33,7 @@ export function ProductDetails({route}) {
   });
 
   if (productLoading) {
-    return <Loading />;
+    return <Loading hasBackground />;
   }
 
   if (productError) {
@@ -58,9 +59,11 @@ export function ProductDetails({route}) {
   }
 
   function renderHeader() {
+    const {product} = productData;
     return (
       <>
-        <Product product={productData.product} />
+        <Product product={product} />
+        <AddComment productId={product.id} />
         {commentsLoading && <Loading />}
         {commentsError && <Error error={commentsError} />}
         {renderNumberOfComments()}
@@ -83,11 +86,11 @@ const styles = StyleSheet.create({
     padding: 8,
   },
   commentCard: {
-    paddingVertical: 16,
-    paddingHorizontal: 8,
+    padding: 16,
     marginVertical: 8,
   },
   title: {
-    marginVertical: 8,
+    marginTop: 16,
+    marginBottom: 8,
   },
 });
