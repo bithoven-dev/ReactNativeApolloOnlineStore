@@ -14,13 +14,22 @@ export const PRODUCT_FRAGMENT = gql`
   }
 `;
 
+// I am not using fragment in here because of the unit tests, for some reason
+// fragments have issues with the MockedProvider
 export const GET_ALL_PRODUCTS = gql`
   {
     products {
-      ...ProductFragment
+      id
+      name
+      price
+      description
+      favorite @client
+      thumb {
+        id
+        url
+      }
     }
   }
-  ${PRODUCT_FRAGMENT}
 `;
 
 export const ADD_OR_REMOVE_PRODUCT_FROM_FAVORITE = gql`
