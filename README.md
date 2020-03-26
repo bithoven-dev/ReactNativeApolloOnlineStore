@@ -22,6 +22,7 @@ Then create an account and add some products and comments.
 
 # Mobile:
 
+Got inside the client folder.
 Start the metro bundler:
 
 ```
@@ -39,7 +40,7 @@ For iOS:
 yarn iOS
 ```
 
-PS: make sure that you have installed all the required dependencies.
+PS: make sure that you have installed all the required dependencies including running pod installs.
 
 #Videos
 
