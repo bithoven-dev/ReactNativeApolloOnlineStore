@@ -37,7 +37,7 @@ yarn android
 
 For iOS:
 ```
-yarn iOS
+yarn ios
 ```
 
 PS: make sure that you have installed all the required dependencies including running pod installs.
