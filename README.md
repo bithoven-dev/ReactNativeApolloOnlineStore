@@ -44,4 +44,4 @@ PS: make sure that you have installed all the required dependencies including ru
 
 # Videos
 
-I will add the videos as soon as I start publishing them.
+[Preparing the server side using strapi.io](https://youtu.be/t9DFazur890)
