@@ -47,3 +47,5 @@ PS: make sure that you have installed all the required dependencies including ru
 [Preparing the server side using strapi.io](https://youtu.be/t9DFazur890)
 
 [Configuring react navigation 5 and apollo 3](https://youtu.be/Divio06CFKg)
+
+[Build the UI/layout for the products list](https://youtu.be/cXcTiBO173s)
