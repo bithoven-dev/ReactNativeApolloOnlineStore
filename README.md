@@ -49,3 +49,5 @@ PS: make sure that you have installed all the required dependencies including ru
 [Configuring react navigation 5 and apollo 3](https://youtu.be/Divio06CFKg)
 
 [Build the UI/layout for the products list](https://youtu.be/cXcTiBO173s)
+
+[Add the favorite button using @client cache](https://youtu.be/JxQC2cu4i5M)
