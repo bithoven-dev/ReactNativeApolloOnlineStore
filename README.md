@@ -2,6 +2,8 @@
 
 ![](./.github/images/result.jpg)
 
+[What we are going to build](https://youtu.be/aniRucwxghw)
+
 This repo is the source code for a youtube series about how to create a react native online shop using apollo 3.
 
 This is a ready to go production app, but a lab to show different ways of using the library.
