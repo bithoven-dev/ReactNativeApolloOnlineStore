@@ -53,3 +53,5 @@ PS: make sure that you have installed all the required dependencies including ru
 [Build the UI/layout for the products list](https://youtu.be/cXcTiBO173s)
 
 [Add the favorite button using @client cache](https://youtu.be/JxQC2cu4i5M)
+
+[Add favorite count and the product details](https://youtu.be/UbobWSzEYBk)
