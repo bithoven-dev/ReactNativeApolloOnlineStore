@@ -55,3 +55,7 @@ PS: make sure that you have installed all the required dependencies including ru
 [Add the favorite button using @client cache](https://youtu.be/JxQC2cu4i5M)
 
 [Add favorite count and the product details](https://youtu.be/UbobWSzEYBk)
+
+[Add comments to the product details](https://youtu.be/RWkMJBa9Xh4)
+
+[Add new comment with useMutation](https://youtu.be/8xMDAtGx4fQ)
