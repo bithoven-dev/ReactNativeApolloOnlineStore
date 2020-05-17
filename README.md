@@ -59,3 +59,5 @@ PS: make sure that you have installed all the required dependencies including ru
 [Add comments to the product details](https://youtu.be/RWkMJBa9Xh4)
 
 [Add new comment with useMutation](https://youtu.be/8xMDAtGx4fQ)
+
+[Use apollo-cache-persist with ReactNative](https://youtu.be/4hMox4nRUgE)
